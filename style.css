@@ -1,0 +1,110 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    /* background-color: rgb(39, 39, 39); */
+   /* color: whitesmoke; */
+}
+.header{
+    padding: 20px;
+    margin:0%;
+    background-color: rgba(239, 38, 38, 0.818);
+}
+h1{
+    margin-left: 530px;
+    font-size: 60px;
+}
+div.header>p{
+    margin-left: 280px;
+    margin-top: 18px;
+    font-size: 20px;
+    word-spacing: 4px;   
+}
+a:hover{
+    background: #d3a13d;
+    transition: background-color 1s ease-out 100ms
+}
+
+a{
+    text-decoration: none;
+    color: rgb(9, 11, 25);
+}
+
+div.container{
+    padding: 20px;
+}
+.for{ 
+    word-spacing: 10px;
+    background-color: rgb(255, 191, 0);
+    color: red;
+    font-size: 25px;
+    text-shadow: 0.5px 0.5px 0px rgb(17, 17, 26);
+    padding: 30px;
+}
+div.container span{
+    padding: 20px;
+    letter-spacing: 1px;
+    font-size: 20px;
+}
+.book{
+    color: rgb(4, 64, 97);
+    text-shadow: 1px 2px 5px rgb(82, 80, 80);
+    justify-content: center;
+}
+img{
+    margin-left: 50px;
+    margin-top: 50px; 
+}
+
+.top{
+    margin-left: 88%;
+    background-color: rgba(2, 54, 243, 0.711);
+    font-size: 2.0em;
+    color: rgb(14, 2, 2);
+    position: fixed;
+    border-radius: 10%;
+    padding: 9px;
+    font-family: 'Times New Roman', Times, serif;
+}
+.form{ 
+    border: 1px solid blue;
+    background-color:  rgb(242, 152, 152);
+    margin-bottom: 10px;
+    margin-top: 20px;
+    padding: 20px;
+}
+.review{
+    color: black;
+    /* padding-left: 9px; */
+}
+.top:hover {
+    background-color: #47aba5;
+}
+
+     /*  footer  */
+input{
+        padding: 12px;
+        border: none;
+        margin-left: 10px;
+        margin-top: 10px;
+        background-color: rgb(192,192,192);
+
+}
+.submit{
+    background-color: rgb(172, 13, 13);
+    color: white;
+    margin-left: 55px;
+    border-radius: 5px;
+    
+}
+textarea{
+    border: none;
+    margin-top: 12px;
+    background-color: rgb(192, 192, 192);
+}
+
+h2{
+    margin-left: 56px;
+    color: rgb(172, 13, 13) !important;
+}
